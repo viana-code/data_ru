@@ -1,3 +1,29 @@
-:root {
-    --cor-primaria: blue;
+@font-face {
+    font-family: "Quantify";
+    src: url(../../fonts/quantify/Quantify.ttf);
 }
+
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url(../../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
+}
+
+:root {
+    --background-body: rgb(222, 220, 220);
+
+    --padding-padrao: 20px;
+
+    --fonte-logo: "Quantify";
+    --font-body: "Alte Haas Grotesk";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--background-body);
+}
+
